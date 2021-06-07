@@ -69,7 +69,6 @@ public class SQLFlowInterpreter extends Interpreter {
 	@Override
 	public InterpreterResult interpret(String query, InterpreterContext context)
 			throws InterpreterException {
-
 		if (StringUtils.isBlank(query)) {
 			return new InterpreterResult(InterpreterResult.Code.SUCCESS);
 		}
@@ -77,7 +76,6 @@ public class SQLFlowInterpreter extends Interpreter {
 		// Create user
 		SQLFlow client = EnvironmentSpecificSQLFlowClient.getClient(
 				new MessageHandlerZeppelin(context), parameters);
-
 		try {
 			// Run custom sqlflow code
 			client.run(query);
@@ -90,5 +88,4 @@ public class SQLFlowInterpreter extends Interpreter {
 			return new InterpreterResult(InterpreterResult.Code.ERROR);
 		}
 	}
-
 }
