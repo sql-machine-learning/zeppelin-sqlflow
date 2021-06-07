@@ -61,7 +61,7 @@ public class MessageHandlerZeppelin implements MessageHandler {
 		} catch (IOException e) {
 			LOGGER.error("table error", e);
 		}
-		//
+		
 		for (int i = 0; i < headerSize; i++) {
 			String headerContent = columnNames.get(i);
 			try {
