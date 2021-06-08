@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sqlflow",
+    "group": "sqlflow",
+    "name": "sqlflow",
+    "className": "org.apache.zeppelin.sqlflow.SQLFlowInterpreter",
+    "properties": {
+      "sqlflow.serverAddr": {
+        "envName": null,
+        "propertyName": "sqlflow.serverAddr",
+        "defaultValue": "",
+        "description": "SQLFLOW server address",
+        "type": "string"
+      },
+      "mysql.username": {
+        "envName": null,
+        "propertyName": "mysql.username",
+        "defaultValue": "",
+        "description": "The MYSQL username",
+        "type": "string"
+      },
+      "mysql.password": {
+        "envName": null,
+        "propertyName": "mysql.password",
+        "defaultValue": "",
+        "description": "The MYSQL user password",
+        "type": "password"
+      },
+      "mysql.serverAddr": {
+        "envName": null,
+        "propertyName": "mysql.serverAddr",
+        "defaultValue": "",
+        "description": "MYSQL server address",
+        "type": "string"
+      },
+      "mysql.databaseName": {
+        "envName": null,
+        "propertyName": "mysql.databaseName",
+        "defaultValue": "",
+        "description": "The MYSQL databaseName",
+        "type": "string"
+      }
+    },
+    "editor": {
+      "language": "sql",
+      "editOnDblClick": false,
+      "completionKey": "TAB"
+    }
+  }
+]
