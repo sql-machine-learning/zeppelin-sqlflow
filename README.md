@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Integrate Ant Financial Services Group open source machine learning tool [SQLFlow](http://sqlflow.org/sqlflow) into the web-based notebook tool [Apache Zeppelin](http://zeppelin.apache.org/) to expand the interpreter language supported by Zeppelin.
+Integrate Ant Group open source machine learning tool [SQLFlow](http://sqlflow.org/sqlflow) into the web-based notebook tool [Apache Zeppelin](http://zeppelin.apache.org/) to expand the interpreter language supported by Zeppelin.
 
 ## Motivation
 
